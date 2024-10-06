@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cabe3f53.css",
-    "main.js": "/Portfolio/static/js/main.7e69927d.js",
+    "main.js": "/Portfolio/static/js/main.27687e27.js",
     "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
     "static/media/Muffin.png": "/Portfolio/static/media/Muffin.cbd38439dae01f1936ed.png",
     "static/media/about.jpg": "/Portfolio/static/media/about.75ed78eb4e6e5585d715.jpg",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.cabe3f53.css",
-    "static/js/main.7e69927d.js"
+    "static/js/main.27687e27.js"
   ]
 }
