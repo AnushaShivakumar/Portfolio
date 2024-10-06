@@ -5,8 +5,7 @@ import "./skills.css";
 import MachineLearning from "./MachineLearning";
 import DataAnalysis from "./DataAnalysis";
 import Webdevelopment from "./Webdevelopment";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
+
 import CloudComputing from "./CloudComputing";
 
 const Skills = () => {
@@ -19,9 +18,8 @@ const Skills = () => {
 				<Webdevelopment />
 				<DataAnalysis />
 				<MachineLearning />
-				{/* <Frontend /> */}
+
 				<CloudComputing />
-				{/* <Backend /> */}
 			</div>
 		</section>
 	);
