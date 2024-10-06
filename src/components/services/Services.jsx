@@ -180,7 +180,7 @@ const Services = () => {
 								className="uil uil-times services__modal-close"
 							></i>
 
-							<h3 className="services__modal-title">Visual Designer</h3>
+							<h3 className="services__modal-title">Data Analyst</h3>
 							<p className="services__modal-description">
 								Turning data into strategic insights for better decision-making.
 							</p>
