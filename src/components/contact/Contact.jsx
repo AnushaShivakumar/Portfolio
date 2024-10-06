@@ -48,7 +48,7 @@ const Contact = () => {
 							<span className="contact__card-data">AnushaShivakumar</span>
 
 							<a
-								href="https://github.com/AnushaShivakumar, more information!"
+								href="https://github.com/AnushaShivakumar"
 								className="contact__button"
 							>
 								Write me{" "}
