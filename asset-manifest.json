@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cabe3f53.css",
-    "main.js": "/Portfolio/static/js/main.285c3550.js",
+    "main.js": "/Portfolio/static/js/main.e1f885b5.js",
     "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
     "static/media/Muffin.png": "/Portfolio/static/media/Muffin.cbd38439dae01f1936ed.png",
     "static/media/about.jpg": "/Portfolio/static/media/about.75ed78eb4e6e5585d715.jpg",
@@ -11,7 +11,7 @@
     "static/media/MLProject.webp": "/Portfolio/static/media/MLProject.214bc3c6bb97989c8098.webp",
     "static/media/Blockchain.png": "/Portfolio/static/media/Blockchain.553ecc93fc274de1f66e.png",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.e77db397b71693873b06.jpg",
-    "static/media/Anusha-Cv.pdf": "/Portfolio/static/media/Anusha-Cv.a4721a233d05ab163360.pdf",
+    "static/media/Anusha-Cv.pdf": "/Portfolio/static/media/Anusha-Cv.0f5f69ca6f5891c3e0a6.pdf",
     "static/media/Hobbies.png": "/Portfolio/static/media/Hobbies.5015f6c3139e760d84bb.png",
     "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.cabe3f53.css",
-    "static/js/main.285c3550.js"
+    "static/js/main.e1f885b5.js"
   ]
 }
