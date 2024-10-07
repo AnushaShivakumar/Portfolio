@@ -39,6 +39,15 @@ const Social = () => {
 			>
 				<i className="uil uil-github-alt"></i>
 			</a>
+
+			<a
+				href="https://pitt-my.sharepoint.com/:b:/g/personal/ans797_pitt_edu/ESPkGDHpY75NqcnlBZUsoJ8BaTbreZcbZiiNphjMNN4YUg?e=cDjP4H"
+				className="home__social-icon"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<i className="uil uil-file-alt"></i>
+			</a>
 		</div>
 	);
 };

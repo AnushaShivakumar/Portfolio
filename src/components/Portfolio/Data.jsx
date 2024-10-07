@@ -67,7 +67,8 @@ export const projectsData = [
 		image: Archaeology,
 		title: "Digital Archaeological Record System",
 		category: "Web Development",
-		github: "https://github.com/YourUsername/DigitalArchaeology", // Add GitHub URL here
+		github:
+			"https://github.com/AnushaShivakumar/Archaeology-Dataset-Management-System", // Add GitHub URL here
 	},
 ];
 
