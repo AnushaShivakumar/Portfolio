@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cabe3f53.css",
-    "main.js": "/Portfolio/static/js/main.e1f885b5.js",
+    "main.css": "/Portfolio/static/css/main.dab5370d.css",
+    "main.js": "/Portfolio/static/js/main.4a82e0ca.js",
     "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
     "static/media/Muffin.png": "/Portfolio/static/media/Muffin.cbd38439dae01f1936ed.png",
-    "static/media/about.jpg": "/Portfolio/static/media/about.75ed78eb4e6e5585d715.jpg",
     "static/media/CanvaAI.png": "/Portfolio/static/media/CanvaAI.4e6aac830fad87082445.png",
     "static/media/VRtherapy.png": "/Portfolio/static/media/VRtherapy.9cc54ce2c4f2680af1f2.png",
     "static/media/AIAssit.png": "/Portfolio/static/media/AIAssit.2603f35f1e410f6f39a6.png",
     "static/media/MLProject.webp": "/Portfolio/static/media/MLProject.214bc3c6bb97989c8098.webp",
     "static/media/Blockchain.png": "/Portfolio/static/media/Blockchain.553ecc93fc274de1f66e.png",
-    "static/media/profile.jpg": "/Portfolio/static/media/profile.e77db397b71693873b06.jpg",
-    "static/media/Anusha-Cv.pdf": "/Portfolio/static/media/Anusha-Cv.0f5f69ca6f5891c3e0a6.pdf",
+    "static/media/about.jpg": "/Portfolio/static/media/about.0321ff2a036b9c27ec31.jpg",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.f715de4166db79f8ece7.jpg",
+    "static/media/Anusha-Cv.pdf": "/Portfolio/static/media/Anusha-Cv.bf000ac39fc8166a23f2.pdf",
     "static/media/Hobbies.png": "/Portfolio/static/media/Hobbies.5015f6c3139e760d84bb.png",
     "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -20,7 +20,7 @@
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.cabe3f53.css",
-    "static/js/main.e1f885b5.js"
+    "static/css/main.dab5370d.css",
+    "static/js/main.4a82e0ca.js"
   ]
 }
