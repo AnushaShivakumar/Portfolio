@@ -1,0 +1,87 @@
+/** @format */
+
+.skills {
+	text-align: center;
+	padding: 6rem 2rem;
+	position: relative;
+}
+
+/* === Section Title Styling === */
+.section__title {
+	font-size: 2.5rem;
+	/* font-family: "Playfair Display", serif; */
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.section__subtitle {
+	font-size: 1.2rem;
+	color: #666;
+	margin-bottom: 3rem;
+	display: block;
+}
+
+/* === Skills Container === */
+.skills__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+	justify-content: center;
+}
+
+/* === Individual Skill Box === */
+.skills__box {
+	background-color: #fff;
+	padding: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.skills__box:hover {
+	transform: translateY(-5px);
+}
+
+/* === Skills Title === */
+.skills__title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* === Icons Styling === */
+.skills__icon {
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+	color: #5a4a3d;
+}
+
+/* === Skills List === */
+.skills__list {
+	list-style: none;
+	padding: 0;
+}
+
+.skills__list li {
+	font-size: 1rem;
+	color: #444;
+	padding: 0.5rem 0;
+}
+
+.skills__list span {
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #777;
+}
+
+/* === Responsive Design === */
+@media screen and (max-width: 768px) {
+	.skills__container {
+		grid-template-columns: 1fr;
+	}
+}

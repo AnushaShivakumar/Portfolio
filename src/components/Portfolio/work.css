@@ -1,0 +1,150 @@
+/** @format */
+
+.projects {
+	text-align: center;
+	padding: 2rem 1rem;
+}
+
+/* Filter buttons */
+.projects__filters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+	margin-bottom: 1rem;
+	margin-top: -0.5rem; /* Adjust spacing */
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	padding-bottom: 0.5rem;
+}
+
+.projects__filter {
+	padding: 0.5rem 1.2rem;
+	border-radius: 5px;
+	border: none;
+	background-color: #444;
+	color: white;
+	font-size: 0.9rem;
+	cursor: pointer;
+	transition: 0.3s;
+	white-space: nowrap;
+}
+
+.projects__filter.active,
+.projects__filter:hover {
+	background-color: black;
+}
+
+/* Responsive Grid */
+.projects__container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(250px, 1fr));
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+/* Project Card */
+.projects__card {
+	background-color: #333;
+	color: white;
+	border-radius: 10px;
+	padding: 1.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	text-align: left;
+}
+
+/* Card Hover Effect */
+.projects__card:hover {
+	background-color: white;
+	color: black;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text inside the card */
+.projects__card:hover h3,
+.projects__card:hover p {
+	color: black;
+}
+
+/* Tech Tags */
+.projects__tech {
+	margin-top: 1rem;
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+.tech-tag {
+	background-color: #ddd;
+	padding: 0.3rem 0.8rem;
+	color: #333;
+	border-radius: 5px;
+	font-size: 0.8rem;
+}
+
+/* Hover Effect for Tech Tags */
+.projects__card:hover .tech-tag {
+	background-color: #bbb;
+	color: black;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Screens (Desktop) */
+@media screen and (max-width: 1024px) {
+	.projects__container {
+		grid-template-columns: repeat(3, minmax(280px, 1fr));
+		gap: 1.5rem;
+	}
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+	.projects {
+		padding: 1.5rem 1rem;
+	}
+
+	.projects__filters {
+		gap: 0.5rem;
+		margin-bottom: 0.8rem;
+		overflow-x: auto;
+		justify-content: flex-start;
+		padding: 0.5rem;
+		white-space: nowrap;
+	}
+
+	.projects__container {
+		grid-template-columns: repeat(2, minmax(220px, 1fr));
+		gap: 1rem;
+	}
+
+	.projects__card {
+		padding: 1.2rem;
+	}
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+	.projects {
+		padding: 1rem 0.5rem;
+	}
+
+	.projects__filters {
+		display: flex;
+		justify-content: flex-start;
+		overflow-x: auto;
+		gap: 0.4rem;
+		padding: 0.5rem;
+	}
+
+	.projects__container {
+		grid-template-columns: 1fr;
+	}
+
+	.projects__card {
+		padding: 1rem;
+		font-size: 0.9rem;
+	}
+}
