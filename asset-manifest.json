@@ -1,10 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bc7d9cc6.css",
-    "main.js": "/Portfolio/static/js/main.338d09df.js",
+    "main.css": "/Portfolio/static/css/main.0189fdaf.css",
+    "main.js": "/Portfolio/static/js/main.5fa32656.js",
+    "static/media/Reflections.png": "/Portfolio/static/media/Reflections.705ec251e312c0582505.png",
+    "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
+    "static/media/CanvaAI.png": "/Portfolio/static/media/CanvaAI.4e6aac830fad87082445.png",
+    "static/media/HRI.png": "/Portfolio/static/media/HRI.cc463c221a8b95c7d8ab.png",
+    "static/media/Expo.png": "/Portfolio/static/media/Expo.789d78d6b7522769d04d.png",
+    "static/media/MLProject.webp": "/Portfolio/static/media/MLProject.214bc3c6bb97989c8098.webp",
     "static/media/about.jpg": "/Portfolio/static/media/about.0321ff2a036b9c27ec31.jpg",
+    "static/media/ASL.png": "/Portfolio/static/media/ASL.157fc93ef704c74ce8ea.png",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.f715de4166db79f8ece7.jpg",
     "static/media/Anusha-Cv.pdf": "/Portfolio/static/media/Anusha-Cv.065a022d2bf52c3a75f3.pdf",
+    "static/media/DataVisual.png": "/Portfolio/static/media/DataVisual.e95ea87ad12248d91071.png",
+    "static/media/Blockchain.png": "/Portfolio/static/media/Blockchain.67f31fd8f4cb86e89bec.png",
+    "static/media/PAWS.png": "/Portfolio/static/media/PAWS.60d77eac73974f6ea674.png",
+    "static/media/VR.jpg": "/Portfolio/static/media/VR.ebdeeeb62ac38c8d9694.jpg",
+    "static/media/DataAnalytics.webp": "/Portfolio/static/media/DataAnalytics.d26e733b9e5af8365b71.webp",
+    "static/media/FedEx.webp": "/Portfolio/static/media/FedEx.c39eb00139d9c6a48604.webp",
+    "static/media/mHealth.png": "/Portfolio/static/media/mHealth.66558e4e6279b47d3248.png",
     "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -12,7 +26,7 @@
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.bc7d9cc6.css",
-    "static/js/main.338d09df.js"
+    "static/css/main.0189fdaf.css",
+    "static/js/main.5fa32656.js"
   ]
 }
