@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0189fdaf.css",
-    "main.js": "/Portfolio/static/js/main.ef41f412.js",
+    "main.css": "/Portfolio/static/css/main.b076e6d5.css",
+    "main.js": "/Portfolio/static/js/main.0afc397d.js",
     "static/media/Reflections.png": "/Portfolio/static/media/Reflections.705ec251e312c0582505.png",
+    "static/media/insta1.jpg": "/Portfolio/static/media/insta1.c0e3ea281241fb65670a.jpg",
     "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
     "static/media/CanvaAI.png": "/Portfolio/static/media/CanvaAI.4e6aac830fad87082445.png",
     "static/media/HRI.png": "/Portfolio/static/media/HRI.cc463c221a8b95c7d8ab.png",
+    "static/media/insta3.jpg": "/Portfolio/static/media/insta3.78c516f09a5c969111a7.jpg",
     "static/media/Expo.png": "/Portfolio/static/media/Expo.789d78d6b7522769d04d.png",
     "static/media/MLProject.webp": "/Portfolio/static/media/MLProject.214bc3c6bb97989c8098.webp",
+    "static/media/insta2.jpg": "/Portfolio/static/media/insta2.58bb2a1412519c64788a.jpg",
     "static/media/about.jpg": "/Portfolio/static/media/about.0321ff2a036b9c27ec31.jpg",
     "static/media/ASL.png": "/Portfolio/static/media/ASL.157fc93ef704c74ce8ea.png",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.f715de4166db79f8ece7.jpg",
@@ -26,7 +29,7 @@
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.0189fdaf.css",
-    "static/js/main.ef41f412.js"
+    "static/css/main.b076e6d5.css",
+    "static/js/main.0afc397d.js"
   ]
 }
