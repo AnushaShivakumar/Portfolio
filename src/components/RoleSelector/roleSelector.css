@@ -1,0 +1,67 @@
+/** @format */
+
+.role-selector {
+	background-color: #ffffff; /* Match main theme */
+	padding: 4rem 2rem;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	color: #333;
+}
+
+.role-title {
+	font-size: 2.5rem;
+	color: #2e2c2b;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.role-subtitle {
+	font-size: 1.5rem;
+	color: #62445e;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.role-subtext {
+	color: #666;
+	font-size: 1rem;
+	max-width: 700px;
+	margin: 0 auto 2.5rem auto;
+	line-height: 1.6;
+}
+
+.role-selector-section {
+	text-align: center;
+	padding: 4rem 1rem;
+}
+
+.role-prompt {
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--title-color);
+	margin-bottom: 3rem;
+}
+
+.role-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 2rem;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.r .role-emoji {
+	font-size: 1.8rem;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}

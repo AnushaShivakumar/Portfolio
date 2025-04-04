@@ -1,0 +1,141 @@
+/** @format */
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: var(--z-fixed);
+	background-color: #6b9080;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.nav__logo,
+.nav__toggle {
+	color: white;
+	font-weight: 600;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	column-gap: 2.5rem;
+}
+
+.nav__link {
+	font-size: 0.95rem;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav__link::after {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #fefae0; /* Light underline on hover */
+	transition: width 0.3s ease-in-out;
+}
+
+.nav__link:hover::after,
+.active-link::after {
+	width: 100%;
+}
+
+.nav__icon,
+.nav__close,
+.nav__toggle {
+	display: none;
+}
+
+/* Scroll effect */
+.scroll-header {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+/* Medium Devices */
+@media screen and (max-width: 768px) {
+	.header {
+		top: initial;
+		bottom: 0;
+	}
+
+	.nav {
+		height: var(--header-height);
+		padding: 0 1.5rem;
+	}
+
+	.nav__menu {
+		position: fixed;
+		bottom: -100%;
+		left: 0;
+		width: 100%;
+		background-color: #6b9080;
+		padding: 2rem 1.5rem 4rem;
+		box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.2);
+		border-radius: 1.5rem 1.5rem 0 0;
+		transition: bottom 0.3s ease-in-out;
+	}
+
+	.show-menu {
+		bottom: 0;
+	}
+
+	.nav__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.5rem;
+		text-align: center;
+	}
+
+	.nav__toggle,
+	.nav__icon,
+	.nav__close {
+		display: block;
+		color: white;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+
+	.nav__close {
+		position: absolute;
+		right: 1.3rem;
+		bottom: 1rem;
+	}
+
+	.nav__close:hover {
+		color: #fefae0;
+	}
+}
+
+/* Small Devices */
+@media screen and (max-width: 350px) {
+	.nav__menu {
+		padding: 2rem 1rem 4rem;
+	}
+
+	.nav__list {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+}

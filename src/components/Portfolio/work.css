@@ -1,0 +1,212 @@
+/** @format */
+
+:root {
+	--bg-main: #c9dcd5;
+	--bg-card: #ffffff;
+	--accent: #a38cd2;
+	--tag-bg: #e6e0f3;
+	--tag-text: #5e458b;
+	--text-dark: #333;
+	--text-light: #555;
+	--hover-bg: #f1f1f1;
+}
+
+/* ==== SECTION STYLING ==== */
+.projects {
+	background-color: var(--bg-main);
+	padding: 3rem 1rem;
+	text-align: center;
+}
+
+.modal__description ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+	margin-top: 0.75rem;
+	text-align: left;
+}
+
+.modal__description li {
+	margin-bottom: 0.5rem;
+	line-height: 1.6;
+	color: #fff; /* Optional: ensures it matches your theme */
+}
+
+.modal__description p {
+	text-align: left;
+	margin-bottom: 0.25rem;
+	font-weight: 500;
+}
+
+/* ==== FILTER BUTTONS ==== */
+.projects__filters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.projects__filter {
+	padding: 0.5rem 1rem;
+	background: #6b9080;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.projects__filter.active,
+.projects__filter:hover {
+	background: #344e41;
+}
+
+.section__divider {
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: translateY(-1px);
+}
+
+.section__divider svg {
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* ==== CARD GRID LAYOUT ==== */
+.work__container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(280px, 1fr));
+	gap: 2rem;
+	justify-content: center;
+}
+
+/* ==== CARD STYLING ==== */
+.work__card {
+	background: #6b9080;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	text-align: left;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	width: 100%;
+	max-width: 360px;
+	margin: 0 auto;
+}
+
+.work__card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ==== CARD IMAGE ==== */
+.work__img {
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* ==== CARD TITLE ==== */
+.work__title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: var(--text-dark);
+	margin-top: 1rem;
+}
+
+/* ==== TAGS ==== */
+.work__tags {
+	margin-top: 0.75rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.work__tag {
+	background-color: var(--tag-bg);
+	color: var(--tag-text);
+	font-size: 0.7rem;
+	padding: 0.35rem 0.75rem;
+	border-radius: 999px;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+/* ==== DESCRIPTION ==== */
+.work__description {
+	margin-top: 0.75rem;
+	font-size: 0.88rem;
+	color: #fff;
+	line-height: 1.6;
+}
+
+/* ==== BUTTON ==== */
+.work__button {
+	margin-top: 1rem;
+	align-self: flex-start;
+	background-color: #a4c3b2;
+	color: #fff;
+	font-size: 0.85rem;
+	font-weight: 500;
+	padding: 0.5rem 1.2rem;
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	transition: background-color 0.3s ease;
+}
+
+.work__button:hover {
+	background-color: #344e41;
+}
+
+.work__button-icon {
+	margin-left: 0.5rem;
+	font-size: 1.1rem;
+}
+
+/* ==== VIEW MORE BUTTON ==== */
+.view-toggle {
+	text-align: center;
+}
+
+.view-toggle__button {
+	display: inline-block;
+	margin: 2rem auto 0;
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+	background-color: #6b9080;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.view-toggle__button:hover {
+	background-color: #344e41;
+}
+
+/* ==== RESPONSIVENESS ==== */
+@media screen and (max-width: 1024px) {
+	.work__container {
+		grid-template-columns: repeat(2, minmax(280px, 1fr));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.work__container {
+		grid-template-columns: repeat(2, minmax(240px, 1fr));
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.work__container {
+		grid-template-columns: 1fr;
+	}
+}

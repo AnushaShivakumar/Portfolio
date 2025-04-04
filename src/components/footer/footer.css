@@ -1,0 +1,133 @@
+/** @format */
+
+:root {
+	--mint: #a4c3b2;
+	--accent: #6b9080;
+	--accent-dark: #344e41;
+	--footer-bg: linear-gradient(135deg, #2f4a42, #64897c);
+
+	--icon-bg: #c9dcd5;
+	--icon-hover: #ffffff;
+	--text-muted: #e3f1ec;
+}
+
+/* ==== Footer Container ==== */
+.footer.fancy-footer {
+	position: relative;
+	color: var(--text-muted);
+	padding-top: 5rem;
+	padding-bottom: 2.5rem;
+	background: var(--footer-bg);
+	overflow: hidden;
+	text-align: center;
+}
+
+/* ==== SVG Wave ==== */
+.footer__wave {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: translateY(-1px);
+	z-index: 1;
+}
+
+.footer__wave svg {
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* ==== Main Content ==== */
+.footer__container {
+	position: relative;
+	z-index: 2;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 1rem;
+	animation: fadeUp 0.6s ease-in-out;
+}
+
+/* ==== Links ==== */
+.footer__list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-bottom: 2rem;
+	animation: fadeUp 0.6s ease-in-out 0.1s backwards;
+}
+
+.footer__link {
+	color: var(--icon-hover);
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+	color: var(--mint);
+}
+
+/* ==== Social Icons ==== */
+.footer__social {
+	display: flex;
+	justify-content: center;
+	gap: 1.25rem;
+	margin-bottom: 1.5rem;
+	animation: fadeUp 0.6s ease-in-out 0.2s backwards;
+}
+
+.footer__social-link {
+	background-color: transparent;
+	color: var(--icon-bg);
+	border: 2px solid var(--icon-bg);
+	font-size: 1.1rem;
+	padding: 0.5rem;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.footer__social-link:hover {
+	background-color: var(--icon-bg);
+	color: var(--accent-dark);
+	transform: scale(1.05);
+}
+
+/* ==== Footer Copyright ==== */
+.footer__copy {
+	font-size: 0.85rem;
+	color: var(--text-muted);
+	opacity: 0.8;
+	margin-top: 1.5rem;
+	animation: fadeUp 0.6s ease-in-out 0.3s backwards;
+}
+
+/* ==== Animation Keyframes ==== */
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ==== Responsive ==== */
+@media screen and (max-width: 768px) {
+	.footer__list {
+		gap: 1rem;
+	}
+	.footer__social-link {
+		padding: 0.4rem;
+		font-size: 1rem;
+	}
+}

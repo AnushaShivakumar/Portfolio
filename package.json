@@ -1,0 +1,51 @@
+{
+	"name": "Anusha-Portfolio",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"homepage": "https://AnushaShivakumar.github.io/Portfolio",
+	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
+		"ajv": "^8.17.1",
+		"framer-motion": "^12.6.3",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-icons": "^5.5.0",
+		"react-router-dom": "^7.4.1",
+		"react-scripts": "^5.0.1",
+		"react-slick": "^0.30.2",
+		"react-swiper": "^0.1.5",
+		"slick-carousel": "^1.8.1",
+		"swiper": "^11.1.14"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+		"@babel/plugin-proposal-optional-chaining": "^7.21.0",
+		"@babel/preset-env": "^7.25.7",
+		"@babel/preset-react": "^7.25.7",
+		"babel-loader": "^9.2.1",
+		"gh-pages": "^6.3.0",
+		"webpack": "^5.95.0"
+	}
+}

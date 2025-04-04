@@ -1,0 +1,117 @@
+/** @format */
+
+.skills {
+	text-align: center;
+	padding: 3rem 2rem;
+	position: relative;
+	overflow-x: hidden;
+}
+
+/* === Section Title Styling === */
+.section__title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.section__subtitle {
+	font-size: 1.2rem;
+	color: #ffffff;
+	margin-bottom: 3rem;
+	display: block;
+}
+
+/* === Horizontal Scroll Wrapper === */
+.skills__scroll-container {
+	display: flex;
+	gap: 2rem;
+	overflow-x: auto;
+	padding-bottom: 1rem;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+}
+
+.skills__scroll-container::-webkit-scrollbar {
+	height: 8px;
+}
+
+.skills__scroll-container::-webkit-scrollbar-thumb {
+	background-color: #5a4a3d;
+	border-radius: 10px;
+}
+
+.skills__scroll-container::-webkit-scrollbar-track {
+	background-color: #dcdcdc;
+	border-radius: 10px;
+}
+
+/* === Individual Skill Box === */
+.skills__box {
+	min-width: 280px;
+	background-color: #6b9080;
+	padding: 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+	scroll-snap-align: center;
+	flex-shrink: 0;
+	transition: transform 0.3s ease-in-out;
+}
+
+.skills__box:hover {
+	transform: scale(1.03);
+}
+
+/* === Skills Title === */
+.skills__title {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* === Icons Styling === */
+.skills__icon {
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+	color: #5a4a3d;
+}
+
+/* === Skills List === */
+.skills__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.skills__list li {
+	font-size: 1rem;
+	color: #f4f4f4;
+	padding: 0.5rem 0;
+	text-align: left;
+}
+.section-wave {
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	position: relative;
+	transform: translateY(-1px); /* Seamless blend */
+}
+
+.section-wave svg {
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* === Responsive Design === */
+@media screen and (max-width: 768px) {
+	.skills__box {
+		min-width: 240px;
+	}
+}
