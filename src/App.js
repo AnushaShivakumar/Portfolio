@@ -13,7 +13,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import RoleSelector from "./components/RoleSelector/RoleSelector";
+import ContentCreation from "./components/ContentCreation/ContentCreation";
 
 const App = () => {
 	const [roleSelected, setRoleSelected] = useState(false);
@@ -34,6 +34,7 @@ const App = () => {
 				<Qualification />
 				<Contact />
 				<About />
+				<ContentCreation />
 			</main>
 			<Footer />
 			<ScrollUp />

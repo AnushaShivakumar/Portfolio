@@ -45,21 +45,6 @@ const Header = () => {
 					<ul className="nav__list grid">
 						<li className="nav__item">
 							<a
-								href="#about"
-								onClick={() => {
-									setActiveNav("#about");
-									closeMenu();
-								}}
-								className={
-									activeNav === "#about" ? "nav__link active-link" : "nav__link"
-								}
-							>
-								<i className="uil uil-user nav__icon"></i> About
-							</a>
-						</li>
-
-						<li className="nav__item">
-							<a
 								href="#skills"
 								onClick={() => {
 									setActiveNav("#skills");
@@ -124,6 +109,36 @@ const Header = () => {
 								}
 							>
 								<i className="uil uil-message nav__icon"></i> Contact
+							</a>
+						</li>
+						<li className="nav__item">
+							<a
+								href="#about"
+								onClick={() => {
+									setActiveNav("#about");
+									closeMenu();
+								}}
+								className={
+									activeNav === "#about" ? "nav__link active-link" : "nav__link"
+								}
+							>
+								<i className="uil uil-user nav__icon"></i> About
+							</a>
+						</li>
+						<li className="nav__item">
+							<a
+								href="#content"
+								onClick={() => {
+									setActiveNav("#content");
+									closeMenu();
+								}}
+								className={
+									activeNav === "#content"
+										? "nav__link active-link"
+										: "nav__link"
+								}
+							>
+								<i className="uil uil-camera nav__icon"></i> Content Creation
 							</a>
 						</li>
 					</ul>
