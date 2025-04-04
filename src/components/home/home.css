@@ -131,6 +131,48 @@
 	color: var(--title-color);
 }
 
+@keyframes softFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(15px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Add these in your CSS */
+.home__title {
+	opacity: 0;
+	animation: softFadeIn 0.8s ease-out forwards;
+	animation-delay: 0.2s;
+}
+
+.home__subtitle {
+	opacity: 0;
+	animation: softFadeIn 0.8s ease-out forwards;
+	animation-delay: 0.4s;
+}
+
+.home__description {
+	opacity: 0;
+	animation: softFadeIn 0.8s ease-out forwards;
+	animation-delay: 0.6s;
+}
+
+.home__img {
+	animation: profile__animate 8s ease-in-out infinite 1s,
+		softFadeIn 0.85s ease-out forwards;
+	opacity: 0;
+}
+
+.home__scroll {
+	opacity: 0;
+	animation: softFadeIn 0.8s ease-out forwards;
+	animation-delay: 1s;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
