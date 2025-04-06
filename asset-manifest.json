@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e47413b1.css",
-    "main.js": "/Portfolio/static/js/main.22142578.js",
+    "main.js": "/Portfolio/static/js/main.4cdad012.js",
     "static/media/Reflections.png": "/Portfolio/static/media/Reflections.705ec251e312c0582505.png",
     "static/media/insta1.jpg": "/Portfolio/static/media/insta1.c0e3ea281241fb65670a.jpg",
     "static/media/Archaeology.png": "/Portfolio/static/media/Archaeology.f9412ff6a6f792460837.png",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.e47413b1.css",
-    "static/js/main.22142578.js"
+    "static/js/main.4cdad012.js"
   ]
 }
